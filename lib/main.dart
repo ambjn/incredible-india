@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Incredible India',
-      theme: ThemeData(primaryColor: Colors.white),
+      theme: ThemeData(primaryColor: Colors.white, fontFamily: 'Raleway'),
       home: HomeScreen(),
     );
   }

@@ -12,15 +12,25 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).primaryColor,
       appBar: AppBar(
+        backgroundColor: Theme.of(context).primaryColor,
         elevation: 0,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("IN"),
-            Text("D"),
-            Text("IA"),
+            Text(
+              "incredible",
+              style: TextStyle(
+                  color: Colors.orange.shade900, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(
+              width: 5,
+            ),
+            Text(
+              "india",
+              style: TextStyle(
+                  color: Colors.green.shade900, fontWeight: FontWeight.bold),
+            ),
           ],
         ),
       ),
