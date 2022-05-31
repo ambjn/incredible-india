@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:incredible_india/screens/home_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Incredible India',
       theme: ThemeData(primaryColor: Colors.white),
+      home: HomeScreen(),
     );
   }
 }
