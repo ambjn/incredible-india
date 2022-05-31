@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:incredible_india/data/photos_data.dart';
+import 'package:incredible_india/model/photos_model.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -9,6 +10,24 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  List<PhotoModel> photoList = <PhotoModel>[];
+  bool _loading = true;
+
+  @override
+  void initState() {
+    super.initState();
+    getPhotos();
+  }
+
+  getPhotos() async {
+    Photo photo = Photo();
+    await photo.getPhotos();
+    photoList = photo.photos;
+    setState(() {
+      _loading = false;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

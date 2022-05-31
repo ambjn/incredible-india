@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:incredible_india/model/photos_model.dart';
 import 'package:incredible_india/info.dart';
 
-class Photos {
+class Photo {
   List<PhotoModel> photos = [];
 
   Future<void> getPhotos() async {
