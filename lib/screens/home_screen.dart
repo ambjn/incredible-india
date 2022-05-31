@@ -59,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ? Center(
                 child: CircularProgressIndicator(color: Colors.teal.shade700))
             : Container(
-                padding: const EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10.0),
                 child: StaggeredGridView.countBuilder(
                   crossAxisCount: 4,
                   itemCount: photoList.length,
