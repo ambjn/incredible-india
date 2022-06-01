@@ -1,16 +1,31 @@
-# incredible_india
+# incredible india
 
-A new Flutter project.
+## About:
 
-## Getting Started
+incredible india App made using Flutter, fetches API data from <i> Pixalbay Images API </i><br>
+and display the magnificent beauty of India 🇮🇳
 
-This project is a starting point for a Flutter application.
+## Fonts Used:
 
-A few resources to get you started if this is your first Flutter project:
+<ul>
+<li> Raleway-Regular.ttf</li>
+</ul>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Packages:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<ul>
+<li> http: ^0.13.4 </li>
+<li> staggered_grid_view_flutter: ^0.0.4 </li>
+</ul>
+
+### Installation:
+
+In the command terminal, run the following commands:
+
+    $ git clone https://github.com/ambjn/incredible-india.git
+    $ cd incredible-india
+    $ flutter run
+
+## Screenshots:
+
+<center> <img src = screenshots/1.png alt='screenshot-of-app'> </center>
