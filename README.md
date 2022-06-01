@@ -26,6 +26,6 @@ In the command terminal, run the following commands:
     $ cd incredible-india
     $ flutter run
 
-## Screenshots/GIF:
+## Screenshots / GIF:
 
 <center> <img src = 'https://github.com/ambjn/incredible-india/blob/master/lib/screenshots/1a.gif' alt='screenshot-of-app'> </center> 
