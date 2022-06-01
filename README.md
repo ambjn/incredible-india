@@ -28,4 +28,4 @@ In the command terminal, run the following commands:
 
 ## Screenshots:
 
-<center> <img src = screenshots/1a.gif alt='screenshot-of-app'> </center> 
+<center> <img src = 'https://github.com/ambjn/incredible-india/blob/master/lib/screenshots/1a.gif' alt='screenshot-of-app'> </center> 
